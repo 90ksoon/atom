@@ -1,0 +1,14 @@
+"*":
+  core:
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "limited"
+  "exception-reporting":
+    userId: "518d1209-e1d6-4a42-8007-0cd9743ffbe0"
+  minimap:
+    absoluteMode: true
+    adjustAbsoluteModeHeight: true
+  welcome:
+    showOnStartup: false
