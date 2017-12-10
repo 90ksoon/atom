@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Byron-PC\\AppData\\Local\\Temp\\d-1171110-8816-17jo38i.n61v5nrk9\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Byron-PC\\AppData\\Local\\Temp\\d-1171110-8816-17jo38i.n61v5nrk9\\package.tgz",
+        "spec": "C:\\Users\\Byron-PC\\AppData\\Local\\Temp\\d-1171110-8816-17jo38i.n61v5nrk9\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Byron-PC\\AppData\\Local\\Temp\\apm-install-dir-1171110-8816-1mjrwi7.bx2vzyf1or"
+    ]
+  ],
+  "_from": "..\\d-1171110-8816-17jo38i.n61v5nrk9\\package.tgz",
+  "_id": "atom-hg@2.0.14",
+  "_inCache": true,
+  "_location": "/atom-hg",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Byron-PC\\AppData\\Local\\Temp\\d-1171110-8816-17jo38i.n61v5nrk9\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Byron-PC\\AppData\\Local\\Temp\\d-1171110-8816-17jo38i.n61v5nrk9\\package.tgz",
+    "spec": "C:\\Users\\Byron-PC\\AppData\\Local\\Temp\\d-1171110-8816-17jo38i.n61v5nrk9\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1171110-8816-17jo38i.n61v5nrk9\\package.tgz",
+  "_shasum": "3eeeae74fda860460ed6a352e16d456507263e71",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Byron-PC\\AppData\\Local\\Temp\\d-1171110-8816-17jo38i.n61v5nrk9\\package.tgz",
+  "_where": "C:\\Users\\Byron-PC\\AppData\\Local\\Temp\\apm-install-dir-1171110-8816-1mjrwi7.bx2vzyf1or",
+  "bugs": {
+    "url": "https://github.com/victor-torres/atom-hg/issues"
+  },
+  "coffeelintConfig": {
+    "max_line_length": {
+      "value": 100,
+      "level": "error",
+      "limitComments": true
+    }
+  },
+  "dependencies": {
+    "event-kit": "2.0.0",
+    "jsdifflib": "1.1.0"
+  },
+  "description": "Mercurial support for Atom text editor.",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "coffeelint": "^1.16.0",
+    "mocha": "^3.0.2"
+  },
+  "engines": {
+    "atom": ">=0.200.0"
+  },
+  "homepage": "https://github.com/victor-torres/atom-hg#readme",
+  "keywords": [
+    "mercurial",
+    "hg",
+    "vcs"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-hg",
+  "name": "atom-hg",
+  "optionalDependencies": {},
+  "providedServices": {
+    "atom.repository-provider": {
+      "versions": {
+        "0.1.0": "getRepositoryProviderService"
+      }
+    }
+  },
+  "readme": "# atom-hg ![https://travis-ci.org/victor-torres/atom-hg](https://travis-ci.org/victor-torres/atom-hg.svg?branch=master) [![Build status](https://ci.appveyor.com/api/projects/status/25oeerwheu1w1gom?svg=true)](https://ci.appveyor.com/project/victor-torres/atom-hg)\n\nMercurial support for Atom text editor.\n\n## Features\n\n- line diff in text editor\n- file diff in tree view\n- bookmark:branch or branch name in status bar\n\n## How to use it\n\n- install it through Atom's package manager\n- run the command `atom .` inside your repository\n\n## Multi-platform\n\nWorks on:\n\n- 🐧 Linux\n- 🍎 Mac OS X\n- 🏁 Windows\n\n## Based on\n\n- Atom's Repository Provider Service\n- Atom's Git Repository\n- Atom's Git Diff\n\n## Author\n\n- Victor Torres [@victor-torres](https://github.com/victor-torres)\n\n## Contributors\n\n- Steven Atkinson [@mrstebo](https://github.com/mrstebo)\n- [@mevatron](https://github.com/mevatron)\n- Tom Kemper [@TomKemperNL](https://github.com/TomKemperNL)\n- Carlos Ortiz [@Goodwine](https://github.com/Goodwine) - Google Inc.\n\n## License\n\nMIT Copyright (c) 2016 Victor Torres\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-torres/atom-hg.git"
+  },
+  "scripts": {
+    "lint": "coffeelint lib test",
+    "mocha": "mocha --compilers coffee:coffee-script/register",
+    "test": "npm run lint & npm run mocha"
+  },
+  "version": "2.0.14"
+}
